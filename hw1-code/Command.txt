@@ -1,0 +1,26 @@
+python HW1.py tinyMaze.txt --method bfs
+python HW1.py smallMaze.txt --method bfs
+python HW1.py mediumMaze.txt --method bfs
+python HW1.py bigMaze.txt --method bfs
+python HW1.py openMaze.txt --method bfs
+
+python HW1.py tinyMaze.txt --method astar
+python HW1.py smallMaze.txt --method astar
+python HW1.py mediumMaze.txt --method astar
+python HW1.py bigMaze.txt --method astar
+python HW1.py openMaze.txt --method astar
+
+python HW1.py tinyCorners.txt --method astar_corner
+python HW1.py mediumCorners.txt --method astar_corner
+python HW1.py bigCorners.txt --method astar_corner
+
+python HW1.py tinySearch.txt --method astar_multi
+python HW1.py smallSearch.txt --method astar_multi
+python HW1.py mediumSearch.txt --method astar_multi
+python HW1.py greedySearch.txt --method astar_multi
+python HW1.py mediumDottedMaze.txt --method astar_multi
+
+python HW1.py mediumSearch_prev.txt --method fast
+python HW1.py bigSearch.txt --method fast
+python HW1.py oddSearch.txt --method fast
+python HW1.py openSearch.txt --method fast
